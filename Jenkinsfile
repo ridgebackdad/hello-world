@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         git(url: 'https://github.com/ridgebackdad/hello-world.git', branch: 'Master')
       }
